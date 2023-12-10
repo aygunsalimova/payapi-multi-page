@@ -20,9 +20,9 @@ function HomeTop() {
                                 id="email"
                                 placeholder='Enter email adress'
                                 className='p-4 pl-5 rounded-3xl bg-main-color-2 w-445 h-12 outline-none text-circle font-public-sans text-base font-bold' />
-                            <button className='absolute footer-btn w-44 h-12 rounded-3xl bg-main-color-1 text-main-color-2 font-public-sans text-sm font-bold tracking-m115  hover:bg-main-hover-1 right-o top-0'>Schedule a Demo</button>
+                            <button className='right-0 absolute footer-btn w-44 h-12 rounded-3xl bg-main-color-1 text-main-color-2 font-public-sans text-sm font-bold tracking-m115  hover:bg-main-hover-1 right-o top-0'>Schedule a Demo</button>
                         </div>
-                        <p className='text-main-color-4 font-public-sans text-base  font-normal ml-7 mt-4'>Have any questions? <b>Contact Us</b></p>
+                        <p className='text-main-color-4 font-public-sans text-base  font-normal ml-7 mt-4'>Have any questions? <b className='hover:cursor-pointer'>Contact Us</b></p>
                     </div>
 
                     <img src={Phone} alt="phone" className='w-257 h-498 z-50 mr-24' />

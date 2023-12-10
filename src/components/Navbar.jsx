@@ -20,7 +20,7 @@ function Navbar() {
 
             </div>
             <div>
-                <button className='footer-btn w-44 h-12 rounded-3xl bg-main-color-1 text-main-color-2 font-public-sans text-sm font-bold tracking-m115 mt-10 hover:bg-main-hover-1'>Schedule a Demo</button>
+                <button className='absolute top-0 right-9 w-44 h-12 rounded-3xl bg-main-color-1 text-main-color-2 font-public-sans text-sm font-bold tracking-m115 mt-10 hover:bg-main-hover-1'>Schedule a Demo</button>
             </div>
         </div>
     );

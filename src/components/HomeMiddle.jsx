@@ -12,8 +12,8 @@ function HomeMiddle(props) {
              <div id="home-middle" className='flex flex-row justify-between items-center bg-main-color-5 w-100 py-100 px-165'>
             <div className='ha-col-1'>
                 <h1 className='text-main-color-2 font-dm-serif text-5xl font-normal tracking-m369 leading-56 h-16'>Who we work with</h1>
-                <p className='mt-4 mb-8 text-main-color-2 font-public-sans'>Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users. </p>
-                <button className='ha-btn'>About us</button>
+                <p className='mt-4 mb-8 text-main-color-2 font-public-sans w-445 opacity-70 text-sm font-normal'>Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users. </p>
+                <button className='text-main-color-2 text-center font-public-sans text-base font-bold tracking-m115 w-129 h-12 rounded-3xl border-main-color-2 border-solid border-1 hover:text-main-color-5 hover:bg-white'>About us</button>
             </div>
 
             <div className='ha-col-2 grid grid-flow-row grid-cols-3 gap-14'>
