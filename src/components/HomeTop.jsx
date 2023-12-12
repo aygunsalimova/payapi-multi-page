@@ -5,8 +5,8 @@ import Phone from '../assets/phone.svg'
 
 function HomeTop() {
     return (
-        <div>
-            <div id='home' className='bg-main-color-3 w-100 pl-156 pr-156 pb-75'>
+        <>
+            <div id='home' className='bg-main-color-3 w-100 px-165 pb-75'>
                 <Navbar />
                 <div className='absolute w-780 h-780 bg-circle opacity-25 top-m200 right-m150 rounded-780'></div>
 
@@ -28,7 +28,7 @@ function HomeTop() {
                     <img src={Phone} alt="phone" className='w-257 h-498 z-50 mr-24' />
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

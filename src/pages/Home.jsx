@@ -10,7 +10,6 @@ import Footer from '../components/Footer';
 function Home() {
     return (
         <>
-        
         <HomeTop />
         <HomeMiddle />
         <HomeBody />
