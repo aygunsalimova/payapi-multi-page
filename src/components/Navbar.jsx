@@ -1,5 +1,5 @@
 import React from 'react';
-import BrandIcon from '../icons/brandicon'
+import BrandIcon from '../icons/BrandIcon'
 import '../App.css'
 import { Link } from 'react-router-dom';
 
